@@ -1,7 +1,7 @@
-user_input = input(
+str_fortwo = input(
     'What is the Answer to the Great Question of Life, the Universe, and Everything? ').lower()
 
-if user_input == '42' or user_input == 'forty-two' or user_input == 'forty two':
+if str_fortwo == '42' or str_fortwo == 'forty-two' or str_fortwo == 'forty two':
     print('Yes')
 else:
     print('No')
